@@ -1,0 +1,11 @@
+[
+    {
+        "id": "channel8drama",
+        "name": "Channel 8 Drama",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Mediacorp_Channel_8.jpg/220px-Mediacorp_Channel_8.jpg"
+    }, {
+        "id": "channel5drama",
+        "name": "Channel 5 Drama",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Mediacorp_Channel_5.jpg/220px-Mediacorp_Channel_5.jpg"
+    }
+]
