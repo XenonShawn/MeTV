@@ -15,8 +15,7 @@ You may wonder why are we using a phone as our remote. The answer is that we wer
 We are proud of building a hack that incorporates our solution of a web app and arduino into a platform that taps on the free service of meWATCH to create something that our ah ma would use.
 
 ## What we learned
-Shawn learnt React
-Joel learnt Selenium
+Shawn learnt React - Joel learnt Selenium
 
 ## What's next for MeTV
 1. Refactoring of the code base
