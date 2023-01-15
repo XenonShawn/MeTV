@@ -4,7 +4,7 @@
 
 #define IR_RECEIVE_PIN 2
 
-#define IR_BUTTON_0 10
+#define IR_BUTTON_0 9
 #define IR_BUTTON_1 0
 #define IR_BUTTON_2 1
 #define IR_BUTTON_3 2
@@ -79,11 +79,11 @@ void loop() {
         break;
       }
       case IR_BUTTON_VOL_UP: {
-        Serial.println("volup");
+        Serial.println("volumeup");
         break;
       }
       case IR_BUTTON_VOL_DOWN: {
-        Serial.println("voldown");
+        Serial.println("volumedown");
         break;
       }
       case IR_BUTTON_BACK: {
@@ -123,5 +123,5 @@ void loop() {
       }
     }
   }
-  delay(500);
+  delay(400);
 }
