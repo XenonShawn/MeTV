@@ -31,7 +31,7 @@ class Remote(webdriver.Chrome):
     def press(self, command: str) -> bool:
         otherCommand = ["volumeup","volumedown"]
         if command == "back":
-            sel.find_element(By.TAG_NAME, "body").back()
+            pyautogui.press("browserback")
         if command in otherCommand:
             pyautogui.press(command)
         if isValidCommand(command):
