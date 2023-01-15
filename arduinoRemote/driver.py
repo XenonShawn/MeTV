@@ -29,12 +29,13 @@ class Remote(webdriver.Chrome):
         self.get("http://localhost:3000/")
 
     def press(self, command: str) -> bool:
-        otherCommand = ["volumeup","volumedown"]
+        otherCommand = ["volumeup","volumedown", "ok"]
         if command == "back":
-            pyautogui.press("browserback")
-        if command in otherCommand:
-            pyautogui.press(command)
-        if isValidCommand(command):
+            self.back()
+        elif command in otherCommand:
+            pyautogui.press(command if command != "ok" else "enter")
+        elif isValidCommand(command):
             self.find_element(By.TAG_NAME, "body").send_keys(keyMapping(command))
-            return True
-        return False
+            
+        if self.current_url == "chrome://new-tab-page/":
+            self.get("http://localhost:3000/")
