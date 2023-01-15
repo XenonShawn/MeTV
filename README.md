@@ -1,5 +1,5 @@
 # MeTV
-<img align="right" width="400" src="https://66.media.tumblr.com/debbab62c677fb25c174230b78556afa/tumblr_mjaufwsS5T1rfjowdo1_500.gif">
+<img align="right" width="200" src="https://66.media.tumblr.com/debbab62c677fb25c174230b78556afa/tumblr_mjaufwsS5T1rfjowdo1_500.gif">
 
 ## Inspiration
 Ever had the awkward moment when your ah ma (colloquial term for grandmother) wants to watch meWATCH but you are stucked in school and cannot be tech support? Introducing MeTV, the solution to all your ah ma's watching needs.
